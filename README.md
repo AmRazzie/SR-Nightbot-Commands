@@ -1,2 +1,2 @@
 # SR-Nightbot-Commands
-Nightbot commands for the lads.
+Nightbot commands and variable lists for the SourceRuns lads.
