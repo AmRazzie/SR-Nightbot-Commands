@@ -38,5 +38,7 @@ There is $(eval Math.floor(Math.random()*110))% chance that $(query).
 
 ## 0. **Variables**
 - **$(user)** = Mentions user that used the command.
-- **$(count)** = Prints how many times command has been used.
+- **$(touser)** = Mentions user if nothing is typed, otherwise same as **$(query)**
 - **$(query)** = Returns text typed after !command.
+- **$(count)** = Prints how many times command has been used.
+
