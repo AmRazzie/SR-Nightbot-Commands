@@ -1,8 +1,9 @@
 # Table of Contents
 - [Random line from a list](#1-random-line-from-a-list)
+- [Variables](#0-variables)
 
 ## 1. **Random line from a list**
-Nightbot: User, this run will end on: Chapter. This command has been used 4 times.
+**🤖 Nightbot:** User, this run will end on: Chapter. This command has been used 4 times.
 <details>
   <summary>📋Example Command📋</summary> 
   
@@ -18,5 +19,6 @@ $(user)<TEXT HERE> $(eval a="$(urlfetch json <URL TO THE RAW FILE>)".split(";");
 ```
 </details>
 
-
-
+## 0. **Variables**
+- **$(user)** = Mentions user that used the command.
+- **$(count)** = Prints how many times command has been used.
